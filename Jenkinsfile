@@ -1,4 +1,4 @@
-de {
+node {
     stage('Build') {
         echo 'Building....'
 	pwd
