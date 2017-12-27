@@ -1,14 +1,14 @@
 node {
     stage('Build') {
         echo 'Building....'
-	pwd
+	sh 'pwd'
     }
     stage('Test') {
         echo 'Building....'
-	env
+	sh 'env'
     }
     stage('Deploy') {
         echo 'Deploying....'
-	ls
+	sh 'ls'
     }
 }
